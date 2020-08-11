@@ -1,0 +1,7 @@
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\bin\Debug\dotNetConsole1.exe.config
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\bin\Debug\dotNetConsole1.exe
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\bin\Debug\dotNetConsole1.pdb
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\obj\Debug\dotNetConsole1.csprojAssemblyReference.cache
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\obj\Debug\dotNetConsole1.csproj.CoreCompileInputs.cache
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\obj\Debug\dotNetConsole1.exe
+C:\Codebase\Bootcamp\dotNetConsole1\dotNetConsole1\obj\Debug\dotNetConsole1.pdb
