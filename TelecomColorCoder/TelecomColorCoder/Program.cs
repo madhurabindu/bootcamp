@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace TelecomColorCoder
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             ColorCoder cd = new ColorCoder();
             Console.WriteLine(  cd.ToString());
@@ -17,6 +17,7 @@ namespace TelecomColorCoder
             PairChecker();
         }
 
+       
         static void ColorChecker()
         { 
             ColorCoder colorCoder = new ColorCoder();
@@ -28,7 +29,7 @@ namespace TelecomColorCoder
                 int pairNumber;
                 if (int.TryParse(input, out pairNumber))
                 {
-                    if (pairNumber > 0 && pairNumber <= 25)
+                    if (pairNumber >=0  && pairNumber <= 25)
                     {
                         var ret = colorCoder.GetColorFromPairNumber(pairNumber);
                         Console.WriteLine();

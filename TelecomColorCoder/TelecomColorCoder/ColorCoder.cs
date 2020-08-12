@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TelecomColorCoder
 {
-    class ColorCoder
+    public class ColorCoder
     {
         private static Color[] colorMapMajor;
         private static Color[] colorMapMinor;
@@ -21,8 +21,12 @@ namespace TelecomColorCoder
 
         public Color[] GetColorFromPairNumber(int pairNumber)
         {
-            int majorSize = colorMapMajor.Length;
             int minorSize = colorMapMinor.Length;
+            int majorSize = colorMapMajor.Length;
+            if (pairNumber <1 || pairNumber > minorSize * majorSize)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
 
             int majorIndex = pairNumber / majorSize;
             int minorIndex = (pairNumber % minorSize) == 0 ? minorSize-1 : (pairNumber % 5) - 1;
