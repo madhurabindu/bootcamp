@@ -16,8 +16,7 @@ namespace TelecomColorCoder
             ColorChecker();
             PairChecker();
         }
-
-       
+               
         static void ColorChecker()
         { 
             ColorCoder colorCoder = new ColorCoder();
